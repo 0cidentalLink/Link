@@ -1,0 +1,70 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Cabeçalho com imagem */
+.topo img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Menu de navegação */
+.menu-navegacao {
+  background-color: #004080;
+}
+
+.menu-navegacao ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.menu-navegacao li {
+  margin: 0 15px;
+}
+
+.menu-navegacao a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.menu-navegacao a:hover {
+  background-color: #0066cc;
+}
+
+/* Conteúdo principal */
+.conteudo {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.conteudo h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #004080;
+}
+
+.conteudo p {
+  font-size: 1.2em;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
